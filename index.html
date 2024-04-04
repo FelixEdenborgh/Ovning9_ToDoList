@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <title>Shoping-List/Todo-List</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div id="items"></div>
+    <template id="itemTemplate">
+      <div class="item">
+        <input type="checkbox" class="item-completed" />
+        <input
+          type="text"
+          class="item-description"
+          placeholder="To-Do item...."
+        />
+        <button class="remove-item">Remove</button>
+      </div>
+    </template>
+    <button id="add">Add item</button>
+  </body>
+</html>
